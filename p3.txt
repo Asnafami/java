@@ -1,0 +1,22 @@
+class largest
+{
+public static void main(String args[])
+{
+int [] array={10,34,6,7,78,66};
+int smallest=array[0];
+int largest=array[0];
+for(int i=1;i<6;i++)
+{
+if(array[i]<smallest)
+{
+smallest=array[i];
+}
+if(array[i]>largest)
+{
+largest=array[i];
+}
+}
+System.out.println("smallest element:"+smallest);
+System.out.println("largest element:"+largest);
+}
+}

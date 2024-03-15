@@ -1,0 +1,16 @@
+class Multiplication
+{
+public static void main(String args[])
+{
+System.out.println("multiplication table");
+int[] arr;
+arr= new int[11];
+for(int i=1;i<11;i++)
+{
+arr[i]=i*5;}
+for(int i=1;i<11;i++)
+{
+System.out.println(i+"x"+"5"+"="+arr[i]);
+}
+}
+}
