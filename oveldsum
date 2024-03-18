@@ -1,0 +1,29 @@
+class Sum
+{
+void add(int x,int y)
+{
+int sum;
+sum=x+y;
+System.out.println("sum of two numbers are:"+sum);
+}
+void add(int x,int y,int z)
+{
+int sum;
+sum=x+y+z;
+System.out.println("sum of three numbers are:"+sum);
+}
+}
+class Overload
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+System.out.println("enter first number:");
+int x=s.nextInt();
+System.out.println("enter second number:");
+int y=s.nextInt();
+System.out.println("enter third number:");
+int z=s.nextInt();
+Sum w=new Sum();
+w.add(x,y);
+w.add(x,y,z);
