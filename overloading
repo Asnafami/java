@@ -1,0 +1,24 @@
+class Sum
+{
+void add(int x,int y)
+{
+int sum;
+sum=x+y;
+System.out.println("sum of two numbers are:"+sum);
+}
+void add(int x,int y,int z)
+{
+int sum;
+sum=x+y+z;
+System.out.println("sum of three numbers are:"+sum);
+}
+}
+class Main
+{
+public static void main(String args[])
+{
+Sum s=new Sum();
+s.add(5,5);
+s.add(5,5,3);
+}
+}
